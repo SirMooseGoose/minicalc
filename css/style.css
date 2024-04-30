@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+  font-family: lcd;
+  src: url(../font/SUBWT___.ttf);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+}
+
+button {
+    width: 24.25%;
+    font-size: 4.5rem;
+    border-radius: 0.2rem;
+    height: 8rem;
+    color: black;
+}
+
+#add, #sub, #mul, #div, #clear, #enter, #comma{
+    color: #ff5e00;
+}
+
+#clear {
+    width: 99%;
+}
+
+main {
+
+}
+
+main input{
+    width: 99%;
+    font-size: 5rem;
+    margin-bottom:10px;
+    background-color: rgb(204, 204, 204);
+    color: rgb(255, 0, 0);
+    text-align: right;
+    padding: 10px 4px 10px 4px;
+    font-family: lcd;
+    border: 1px solid rgb(0, 255, 221);
+    border-radius:4px;
+}
+
+main section#keyBoard {
+    /** Grid eller liknade */
+}
+
+@media (min-width: 767px) {
+    body {
+        width: 40rem;
+    }
+
+    main {
+
+    }
+
+    main input{
+
+    }
+}
+
+@media (max-width: 339px) {
+    main {
+
+    }
+
+}
