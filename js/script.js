@@ -77,7 +77,7 @@ function setOperator(operator, nummer){
 }
 
 /**
- * Beräknar ovh visar resultatet på displayen.
+ * Beräknar och visar resultatet på displayen.
  */
 function calculate() {
 
